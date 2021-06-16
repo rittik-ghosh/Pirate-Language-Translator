@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component Library</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <h1>Rittik's component library</h1>
+    <p>I am attending neog lecture and making up a library for the 1st time, so that it would help me make all my projects consistent.</p>
+    <hr>
+    <h2>@typography</h2>
+    <h1>This is the biggest heading</h1>
+    <h2>This is the 2nd biggest heading</h2>
+    <p>p is the normal hrading</p>
+    <small>This is relatively small</small>
+    <hr>
+    <h2>@ Container</h2>
+    <h3>Fluid conatiner</h3>
+    <div class=" container ">This is a fluid container that will go to the end of the page</div>
+
+    <h3>Center conatiner</h3>
+    <div class="container container-center">This is a centered container that will go till the specified width</div>
+    <hr>
+    <h2>@links</h2>
+    <a class=" link primary-link"href="google.com">primary link</a>
+    <a class="link secondary-link"href="google.com">secondary link</a>
+    <hr>
+    <h2>@list</h2>
+    <h3>Unordered list</h3>
+    <p>This list will not have bullets </p>
+    <ul class="list-non-bullet">
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ul>
+    <h3>Unordered Inline list</h3>
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">inline one</li>
+        <li class="list-item-inline">inline two</li>
+        <li class="list-item-inline">inline three</li>
+    </ul>
+    <h3>reversed ordered list</h3>
+    <ol reversed>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ol>
+    <hr>
+    <h2>@nav bar</h2>
+    <nav class="navigation container">
+        <div class="nav-brand">i am toby</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">project</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">blogs</a>
+            </li>
+        </ul>
+    </nav>
+    <hr>
+
+    <h2>@header</h2>
+    <header class="hero">
+        <img class="hero-image"src="https://www.google.com/logos/doodles/2021/mothers-day-2021-may-09-6753651837108923.3-law.gif" alt="">
+        <h2 class="hero-heading">heading inside
+            <span class="heading-unique">header</span> </h2>
+    </header>
+
+    <h2>@Section</h2>
+    <h3>fluid section</h3>
+    <p>This will go end to end with some margin at both side</p>
+    <section class="section">
+        <div class="container container-center">
+            <h1>white section</h1>
+            <p>This will have white background</p>
+        </div>
+       
+    </section>
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>grey section</h1>
+            <p>This will have grey backkground</p>
+        </div>
+      
+    </section>
+    <hr>
+    <h2>@footer</h2>
+
+    <footer class="footer container">
+        <div class="footer-header">Small thing in div inside footer</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline"><a class="link" href="/">Social 1</a></li>
+            <li class="list-item-inline"><a class="link" href="/">Social 2</a></li>
+            <li class="list-item-inline"><a class="link" href="">Social 3</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
